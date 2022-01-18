@@ -1,0 +1,47 @@
+<story path="stories\calc.storyConverted" title="Funcionalidade: Operar Calculadora
+Eu quero: utilizar as funcionalidasde b&#225;sicas da calculadora
+De modo que: a calculadora execute as opera&#231;&#245;es b&#225;sicas">
+<scenario keyword="Scenario:" title="Limpar Calculadora no In&#237;cio">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;0&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Limpar Calculadora depois de uma opera&#231;&#227;o">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">E adiciono &quot;5&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;5&quot;</step>
+<step outcome="successful">Quando limpo</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;0&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Somar">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;5&quot;</step>
+<step outcome="successful">Quando adiciono &quot;7&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;12&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Subtracao">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando subtraio &quot;2&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;8&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Multiplica&#231;&#227;o">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando multiplico &quot;2&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;20&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Divis&#227;o">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando divido &quot;2&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;5&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Quatro opera&#231;&#245;es">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando divido &quot;2&quot;</step>
+<step outcome="successful">Quando multiplico &quot;5&quot;</step>
+<step outcome="successful">Quando subtraio &quot;1&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;24&quot;</step>
+</scenario>
+</story>

@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>calc</title>
+<style type="text/css" media="all">
+@import url( "./style/jbehave-core.css" );
+</style>
+</head>
+<body>
+ 
+<script type="syntaxhighlighter" class="brush: xml"><![CDATA[
+<story path="stories\calc.storyConverted" title="Funcionalidade: Operar Calculadora
+Eu quero: utilizar as funcionalidasde b&#225;sicas da calculadora
+De modo que: a calculadora execute as opera&#231;&#245;es b&#225;sicas">
+<scenario keyword="Scenario:" title="Limpar Calculadora no In&#237;cio">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;0&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Limpar Calculadora depois de uma opera&#231;&#227;o">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">E adiciono &quot;5&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;5&quot;</step>
+<step outcome="successful">Quando limpo</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;0&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Somar">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;5&quot;</step>
+<step outcome="successful">Quando adiciono &quot;7&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;12&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Subtracao">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando subtraio &quot;2&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;8&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Multiplica&#231;&#227;o">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando multiplico &quot;2&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;20&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Divis&#227;o">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando divido &quot;2&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;5&quot;</step>
+</scenario>
+<scenario keyword="Scenario:" title="Quatro opera&#231;&#245;es">
+<step outcome="successful">Quando inicio a Calculadora</step>
+<step outcome="successful">Quando adiciono &quot;10&quot;</step>
+<step outcome="successful">Quando divido &quot;2&quot;</step>
+<step outcome="successful">Quando multiplico &quot;5&quot;</step>
+<step outcome="successful">Quando subtraio &quot;1&quot;</step>
+<step outcome="successful">Ent&#227;o seu valor ser&#225; &quot;24&quot;</step>
+</scenario>
+</story>
+
+]]></script>
+</body>
+<!--  SyntaxHighlighter resources:  should be included at end of body -->
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shCore.css"/>
+<link rel="stylesheet" type="text/css" href="./style/sh-3.0.83/shThemeRDark.css"/>
+<script language="javascript" src="./js/sh-3.0.83/shCore.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushBash.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushCss.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushDiff.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushGroovy.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJava.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushJScript.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPlain.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushPython.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushRuby.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushScala.js"></script>
+<script language="javascript" src="./js/sh-3.0.83/shBrushXml.js"></script>
+<script language="javascript" src="./js/shBrushBdd.js"></script>
+<script type="text/javascript">
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;    
+    SyntaxHighlighter.all();
+</script>
+</html>
